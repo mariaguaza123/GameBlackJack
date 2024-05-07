@@ -1,0 +1,57 @@
+body {
+    background: green;
+    margin: 0px;
+}
+header{
+    background: black;
+    text-align: center;
+}
+h1{
+    margin: 0px;
+}
+.title-game{
+    background: black;
+    text-align: center;
+    color: goldenrod;
+}
+.options{
+    height: 80px;
+    width: 100%;
+    margin-bottom: 10px;
+    padding-left: 500px;
+}
+.gamer{
+    height: 290px;
+    width: 100%;
+}
+.computer{
+    height: 290px;
+    width: 100%;
+}
+button{
+    margin-top: 15px;
+    margin-left: 45px;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+#NewGame{
+    background: blue;
+}
+#TakeCard{
+    background: blue;
+}
+#Stop{
+    background: red;
+}
+img{
+    position: relative;
+    width: 150px;
+    left: 100px;
+    margin-top: 8px;
+    margin-left: -75px;
+}
